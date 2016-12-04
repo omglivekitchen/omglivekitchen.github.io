@@ -13,7 +13,7 @@ function loadPage(url)
 {
 	if(url==undefined)
 	{
-		url="index.html"
+		url="https://github.com/omglivekitchen/omglivekitchen.github.io/blob/master/index.html"
 		$("html").load(url + ' div',hijack);
 		console.log("loading()...url="+url+ " its body");
 	}
