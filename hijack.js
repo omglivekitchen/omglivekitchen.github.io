@@ -32,9 +32,10 @@ function hijack()
   $('a').click(
 	function(e)
 	  {
-		e.preventDefault();
+		
 		loadPage(e.target.href);
 		console.log("Hijacking...href="+e.target.href);
+		e.preventDefault();
 
 	  }
 		    );
